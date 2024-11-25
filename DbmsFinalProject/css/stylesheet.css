@@ -1,0 +1,182 @@
+/* General Input and Select Styling */
+
+input,
+select {
+    padding: 12px 18px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+}
+
+
+/* Custom Upload Section */
+
+#upload {
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #3498db;
+    display: inline-block;
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+#upload input[type="file"] {
+    display: none;
+}
+
+#upload:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* Header Section */
+
+#headerSection {
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    font-family: 'Cursive', sans-serif;
+    border-radius: 10px 10px 0 0;
+}
+
+#headerSection h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+
+/* Body Styling */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ecf0f1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Login Button */
+
+#loginbtn,
+#reglink {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 25px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#loginbtn:hover,
+#reglink:hover {
+    background-color: #2980b9;
+}
+
+#reglink {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Main Section */
+
+#mainSection {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+/* Profile Section */
+
+#profileSection {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#profileSection img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#profileSection b {
+    font-size: 18px;
+    color: #3498db;
+}
+
+
+/* Group Section */
+
+#groupSection {
+    width: 65%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#groupSection .group-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#groupSection .group-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#groupSection .group-card button {
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#groupSection .group-card button:hover {
+    background-color: #2980b9;
+}
+
+
+/* Back and Logout Button */
+
+#back-button,
+#logout-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#back-button:hover,
+#logout-button:hover {
+    background-color: #2980b9;
+}
